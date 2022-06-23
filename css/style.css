@@ -1,0 +1,103 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.personal-photo {
+    width: 150px;
+    border-radius: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact-icons {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+#icons{
+    text-align:center;
+}
+
+h1 {
+    text-align: center;
+    color: lightseagreen;
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.name:hover {
+    color:blueviolet;
+    font-size: 35px;
+}
+
+.header2:hover {
+    color:blueviolet;
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+a {
+    text-decoration:none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    box-shadow: 2px 2px 2px 2px;
+    height: 100%;
+}
+
+header nav ul li , header nav ul li a {
+    font-size: 18px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+header nav ul li:hover , header nav ul li:hover a  {
+    color:lightseagreen;
+    font-size: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: lightseagreen;
+    color:white;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
